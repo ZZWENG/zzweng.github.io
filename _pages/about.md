@@ -29,16 +29,13 @@ Publications
 
 Experience
 ======
-Work Experience
 - Research Assistant @ Stanford University, 2018 - Present
 - Machine Learning Engineer intern @ VMware, 2019
-- Research Engineer @ AQR, 2016 - 2018
-
-Teaching Experience
-- Intro to Machine Learning @ Carnegie Mellon, 2015 Fall
+- Research Engineer @ AQR Capital Management, 2016 - 2018
+- TA for Intro to Machine Learning @ Carnegie Mellon, 2015 Fall
 
 
-Selected Courses
+Relevant Coursework
 =====
 - Computer Vision, From 3D Reconstruction to Recognition (CS231A) [Course Project](https://zzweng.github.io/files/CS231A_Project.pdf)
 - Machine Learning with Graphs (CS224W)
