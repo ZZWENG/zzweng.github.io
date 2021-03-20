@@ -15,25 +15,33 @@ My research interests include Deep Learning, Computer Vision, Machine Learning S
 
 Publications
 =====
-- Holistic 3D Human and Scene Mesh Estimation from Single View Images[https://arxiv.org/pdf/2012.01591.pdf]
-  
-  Zhenzhen (Jen) Weng, Serena Yeung
+- [Holistic 3D Human and Scene Mesh Estimation from Single View Images](https://arxiv.org/pdf/2012.01591.pdf) (CVPR 2021)  
+  Zhenzhen Weng, Serena Yeung
 
-CVPR 2021
+- Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision (CVPR 2021)
+  Zhenzhen Weng, Mehmet Giray Ogut, Shai Limonchik, Serena Yeung
 
-Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision
+- Slice-based learning: A programming model for residual learning in critical data slices (Neurips 2019)
+  Vincent S Chen, Sen Wu, Zhenzhen Weng, Alexander Ratner, Christopher Ré
 
-Zhenzhen (Jen) Weng, Mehmet Giray Ogut, Shai Limonchik, Serena Yeung
-
-CVPR 2021
-
+- Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data (IEEE IV 2019)
+  Zhenzhen Weng, Paroma Varma, Alexander Masalov, Jeffrey Ota, Christopher Ré
 
 
-Work Experience
+Experience
 ======
-- Machine Learning Engineer intern <div style="text-align: left"> VMware, 2019 </div>
-
+Work Experience
+-----
+- Machine Learning Engineer intern <div style="text-align: right"> VMware, 2019 </div>
 - Research Engineer, AQR, 2016 - 2018
+
+
+Teaching Assistant
+-----
+- Intro to Machine Learning (CMU)
+
+
+
 
 
 
