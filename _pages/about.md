@@ -38,5 +38,10 @@ Teaching Experience
 - Intro to Machine Learning @ Carnegie Mellon, 2015 Fall
 
 
-
-
+Selected Courses
+=====
+- Computer Vision, From 3D Reconstruction to Recognition (CS231A) [Course Project](https://zzweng.github.io/files/CS231A_Project.pdf)
+- Machine Learning with Graphs (CS224W)
+- Deep Generative Models (CS236)
+- Computer Graphics in the Era of AI (CS348I)
+- Reinforcement Learning (CS234) [Course Project](https://zzweng.github.io/files/CS234_report.pdf)
