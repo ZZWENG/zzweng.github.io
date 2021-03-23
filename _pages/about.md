@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D candidate in [ICME](https://icme.stanford.edu/) at Stanford University where I am advised by Prof. [Serena Yeung](http://ai.stanford.edu/~syyeung/). I received a B.S. in Computer Science and Mathematics from Carnegie Mellon University. My research interests include Deep Learning, Computer Vision, and AI-Assisted Healthcare.
-
+I am a Ph.D candidate in [ICME](https://icme.stanford.edu/) at Stanford University where I am part of the [Medical AI and ComputeR Vision Lab (MARVL)](https://marvl.stanford.edu/index.html) and advised by Prof. [Serena Yeung](http://ai.stanford.edu/~syyeung/). I received a B.S. in Computer Science and Mathematics from Carnegie Mellon University. My current research interests include Deep Learning, Computer Vision, and AI-Assisted Healthcare.
 
 
 Publications
@@ -32,6 +31,7 @@ Experience
 - Research Assistant @ Stanford University, 2018 - Present
 - Machine Learning Engineer intern @ VMware, 2019
 - Research Engineer @ AQR Capital Management, 2016 - 2018
+- Research Engineer intern @ AQR Capital Management, 2015
 - TA for Intro to Machine Learning @ Carnegie Mellon, 2015 Fall
 
 
