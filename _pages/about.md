@@ -16,13 +16,13 @@ Publications
 - **[Holistic 3D Human and Scene Mesh Estimation from Single View Images](https://arxiv.org/pdf/2012.01591.pdf) (CVPR 2021)**  
   _Zhenzhen Weng, Serena Yeung_
 
-- **Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision (CVPR 2021)**
+- **[Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision](https://arxiv.org/abs/2104.01257) (CVPR 2021)**
   _Zhenzhen Weng, Mehmet Giray Ogut, Shai Limonchik, Serena Yeung_
 
 - **[Slice-based learning: A programming model for residual learning in critical data slices](https://papers.nips.cc/paper/2019/file/351869bde8b9d6ad1e3090bd173f600d-Paper.pdf) (Neurips 2019)**
   _Vincent S Chen, Sen Wu, Zhenzhen Weng, Alexander Ratner, Christopher Ré_
 
-- **Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data (IEEE IV 2019)**
+- **[Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147) (IEEE IV 2019)**
   _Zhenzhen Weng, Paroma Varma, Alexander Masalov, Jeffrey Ota, Christopher Ré_
 
 
