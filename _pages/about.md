@@ -13,16 +13,16 @@ I am a Ph.D candidate in [ICME](https://icme.stanford.edu/) at Stanford Universi
 
 Publications
 =====
-- **[Holistic 3D Human and Scene Mesh Estimation from Single View Images](https://arxiv.org/pdf/2012.01591.pdf) (CVPR 2021)**  
+- **Holistic 3D Human and Scene Mesh Estimation from Single View Images** (CVPR 2021) [Paper](https://arxiv.org/pdf/2012.01591.pdf) [Project Page](https://zzweng.github.io/holistic_mesh) (CVPR 2021)  
   _Zhenzhen Weng, Serena Yeung_
 
-- **[Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision](https://arxiv.org/abs/2104.01257) (CVPR 2021)**
+- **Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision** [Paper](https://arxiv.org/abs/2104.01257) [Project Page](https://zzweng.github.io/longtail_segmentation)
   _Zhenzhen Weng, Mehmet Giray Ogut, Shai Limonchik, Serena Yeung_
 
-- **[Slice-based learning: A programming model for residual learning in critical data slices](https://papers.nips.cc/paper/2019/file/351869bde8b9d6ad1e3090bd173f600d-Paper.pdf) (Neurips 2019)**
+- **Slice-based learning: A programming model for residual learning in critical data slices** (Neurips 2019) [Paper](https://papers.nips.cc/paper/2019/file/351869bde8b9d6ad1e3090bd173f600d-Paper.pdf)
   _Vincent S Chen, Sen Wu, Zhenzhen Weng, Alexander Ratner, Christopher Ré_
 
-- **[Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147) (IEEE IV 2019)**
+- **Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data**(IEEE IV 2019) [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147)
   _Zhenzhen Weng, Paroma Varma, Alexander Masalov, Jeffrey Ota, Christopher Ré_
 
 
@@ -42,3 +42,4 @@ Relevant Coursework
 - Deep Generative Models (CS236)
 - Computer Graphics in the Era of AI (CS348I)
 - Reinforcement Learning (CS234)
+- Introduction to parallel computing using MPI, openMP, and CUDA (CME213)
