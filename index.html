@@ -1,0 +1,413 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+  <meta name=viewport content=“width=800”>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+  /* latin-ext */
+@font-face {
+font-family: 'Lato';
+font-style: italic;
+font-weight: 400;
+src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Lato';
+font-style: italic;
+font-weight: 400;
+src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Lato';
+font-style: italic;
+font-weight: 700;
+src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Lato';
+font-style: italic;
+font-weight: 700;
+src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+color: #1772d0;
+text-decoration: none;
+}
+
+a:focus,
+a:hover {
+color: #f09228;
+text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px
+}
+
+strong {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+heading {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 22px;
+}
+
+papertitle {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 700
+}
+
+name {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 32px;
+}
+
+.one {
+width: 160px;
+height: 160px;
+position: relative;
+}
+
+.two {
+width: 160px;
+height: 160px;
+position: absolute;
+transition: opacity .2s ease-in-out;
+-moz-transition: opacity .2s ease-in-out;
+-webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+transition: opacity .2s ease-in-out;
+-moz-transition: opacity .2s ease-in-out;
+-webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+background-color: #ffffd0;
+}
+  </style>
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>Zhenzhen (Jen) Weng</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="80%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="80%" valign="middle">
+        <p align="center">
+          <name>Zhenzhen (Jen) Weng</name>
+        </p>
+       
+        <p>I am a Ph.D candidate in <a href="https://icme.stanford.edu/">ICME</a> at Stanford University where I am part of the <a href="https://marvl.stanford.edu/">Medical AI and ComputeR Vision Lab (MARVL)</a>
+        and advised by <a href="https://ai.stanford.edu/~syyeung/">Prof. Serena Yeung</a>. </p>
+
+        <p>I am broadly interested in 3D computer vision. Specifically, I work on deep learning based algorithms to recognize and interpret human pose and behavior in the 3D world, for applications including AI-assisted hospitals and study of early childhood development. </p>
+
+        <p>I received B.S. in Computer Science and B.S. in Mathematics from <a href="https://www.cmu.edu/">Carnegie Mellon University</a> in 2016.</p>
+        
+        <p align=center>
+          <a href="mailto:zzweng@stanford.edu">Email</a> &nbsp/&nbsp
+          <a href="https://www.linkedin.com/in/jen-weng-13616154/">Linkedin</a> &nbsp/&nbsp
+          <a href="https://twitter.com/JenWeng4">Twitter</a>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="middle">
+          <heading>Research and Publications</heading>
+          <!-- <p>
+            * denotes equal contribution co-authorship
+          </p> -->
+        </td>
+      </tr>
+      </table>
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="lfd_stop()" onmouseover="lfd_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='lfd_image'><img src='img/dapa.png' width="160"></div>
+                <img src='img/dapa.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function lfd_start() {
+                  document.getElementById('lfd_image').style.opacity = "1";
+                }
+
+                function lfd_stop() {
+                  document.getElementById('lfd_image').style.opacity = "0";
+                }
+                lfd_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2206.10457">
+                <papertitle>Domain Adaptive 3D Pose Augmentation for In-the-wild Human Mesh Recovery</papertitle>
+              </a>
+              <br>
+              <strong>Zhenzhen Weng</strong>,
+              <a href="https://wangkua1.github.io/">Kuan-Chieh (Jackson) Wang</a>,
+              <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>,
+              <a href="https://scholar.google.com/citations?user=Tw2m5kUAAAAJ&hl=en&oi=ao">Serena Yeung</a>
+              <br>
+              <em>Preprint</em>, 2022
+              <br>
+              <em>CVPR Workshop on Computer Vision for Augmented and Virtual Reality <a href="https://xr.cornell.edu/workshop/2022/papers">(CV4ARVR)</a></em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2206.10457">Paper</a>
+              <p></p>
+              <p>We propose Domain Adaptive 3D Pose Augmentation (DAPA), a data augmentation method that combines the strength of methods based on synthetic datasets by getting direct supervision from the synthesized meshes.</p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="lfd_stop()" onmouseover="lfd_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='lfd_image'><img src='img/holistic.png' width="160"></div>
+                <img src='img/holistic.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function lfd_start() {
+                  document.getElementById('lfd_image').style.opacity = "1";
+                }
+
+                function lfd_stop() {
+                  document.getElementById('lfd_image').style.opacity = "0";
+                }
+                lfd_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/pdf/2012.01591.pdf">
+                <papertitle>Holistic 3D Human and Scene Mesh Estimation from Single View Images</papertitle>
+              </a>
+              <br>
+              <strong>Zhenzhen Weng</strong>,
+              <a href="https://scholar.google.com/citations?user=Tw2m5kUAAAAJ&hl=en&oi=ao">Serena Yeung</a>
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2012.01591.pdf">Paper</a>
+              <p></p>
+              <p>we propose a holistically trainable model that perceives the 3D
+                scene from a single RGB image, estimates the camera pose
+                and the room layout, and reconstructs both human body
+                and object meshes. </p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="lfd_stop()" onmouseover="lfd_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='lfd_image'><img src='img/longtail.PNG' width="160"></div>
+                <img src='img/longtail.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lfd_start() {
+                  document.getElementById('lfd_image').style.opacity = "1";
+                }
+
+                function lfd_stop() {
+                  document.getElementById('lfd_image').style.opacity = "0";
+                }
+                lfd_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2104.01257">
+                <papertitle>Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision</papertitle>
+              </a>
+              <br>
+              <strong>Zhenzhen Weng</strong>,
+              Mehmet Giray Ogut,
+              Shai Limonchik,
+              <a href="https://scholar.google.com/citations?user=Tw2m5kUAAAAJ&hl=en&oi=ao">Serena Yeung</a>
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2021
+              <br>
+              <a href="https://arxiv.org/abs/2104.01257">Paper</a>
+              <p></p>
+              <p>We propose a method that can perform unsupervised discovery of long-tail categories in instance segmentation, through learning instance embeddings of masked regions. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="dd_stop()" onmouseover="dd_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='dd_image'><img src='img/slice_based_learning.png' width="160"></div>
+                <img src='img/slice_based_learning.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function dd_start() {
+                  document.getElementById('dd_image').style.opacity = "1";
+                }
+
+                function dd_stop() {
+                  document.getElementById('dd_image').style.opacity = "0";
+                }
+                dd_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://papers.nips.cc/paper/2019/file/351869bde8b9d6ad1e3090bd173f600d-Paper.pdf">
+                <papertitle>Slice-based learning: A programming model for residual learning in critical data slices</papertitle>
+              </a>
+              <br>
+              <a href="https://vincentsc.com/">Vincent S Chen</a>, 
+              <a href="https://scholar.google.com/citations?user=PzoN2hgAAAAJ&hl=en">Sen Wu</a>,
+              <strong>Zhenzhen Weng</strong>,
+              <a href="https://ajratner.github.io/">Alexander Ratner</a>,
+              <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a>
+              <br>
+              <em>The Conference and Workshop on Neural Information Processing Systems (NeurIPS)</em>, 2019
+              <br>
+              <a href="https://papers.nips.cc/paper/2019/file/351869bde8b9d6ad1e3090bd173f600d-Paper.pdf">Paper</a>
+              <p></p>
+              <p>We introduce the challenge of improving slice-specific performance without damaging the overall model quality, and proposed the first programming abstraction and machine learning model to support
+                these actions.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="seg_stop()" onmouseover="seg_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='dd_image'><img src='img/cyclist.png' width="160"></div>
+                <img src='img/cyclist.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function seg_start() {
+                  document.getElementById('seg_image').style.opacity = "1";
+                }
+
+                function seg_stop() {
+                  document.getElementById('seg_image').style.opacity = "0";
+                }
+                seg_stop()
+              </script>
+            </td>
+            
+            <td valign="top" width="75%">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147&tag=1">
+                <papertitle>Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data </papertitle>
+              </a>
+              <br>
+              <strong>Zhenzhen Weng</strong>,
+              <a href="http://paroma.github.io/">Paroma Varma</a>,
+              <a href="https://www.linkedin.com/in/masalov/">Alexander Masalov</a>,
+              <a href="https://www.linkedin.com/in/jeffota/">Jeffrey Ota</a>,
+              <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a>
+              <br>
+              <em>IEEE Intelligent Vehicles Symposium<a href="https://iv2019.org/">(IEEE IV)</a></em>, 2019
+              <br>
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147&tag=1">Paper</a>
+              <p></p>
+              <p>We introduced weak supervision heuristics as a methodology to infer complex objects and situations by combining simpler outputs from current, state-of-the art object detectors.</p>
+            </td>
+          </tr>
+
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Work Experience</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr onmouseout="box_stop()" onmouseover="box_start()">
+    
+        <td valign="center" width="75%">
+          <p>
+            Research Intern (Perception) @ <a href="https://waymo.com/?ncr">Waymo</a>, Mountain View, CA, Jun - Sept 2022
+            <br><br>
+
+            Machine Learning Engineer @ <a href="https://www.vmware.com/">VMware</a>, Palo Alto, CA, Jun - Sept 2019
+            <br><br>
+            
+            Research Engineer  @ <a href="https://www.aqr.com/">AQR</a>, Greenwich, CT, 2016 - 2018
+            <br><br>
+
+            </a>
+            <br>
+          </p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <br>
+        <p align="right">
+          <font size="2">
+          Webpage template and source code from <a href="https://jonbarron.info">Jon Barron</a>. 
+	    </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+
+    </td>
+    </tr>
+  </table>
+  </body>
+</html>
