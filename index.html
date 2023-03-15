@@ -121,11 +121,17 @@ position: relative;
 
 .two {
 width: 160px;
-height: 160px;
+height: 180px;
 position: absolute;
 transition: opacity .2s ease-in-out;
 -moz-transition: opacity .2s ease-in-out;
 -webkit-transition: opacity .2s ease-in-out;
+}
+
+.img {
+    /* max-width: 100%; */
+    /* max-height: 90%; */
+    width: 200px;
 }
 
 .fade {
@@ -155,12 +161,11 @@ background-color: #ffffd0;
           <name>Zhenzhen (Jen) Weng</name>
         </p>
        
-        <p>I am a Ph.D candidate in <a href="https://icme.stanford.edu/">ICME</a> at Stanford University where I am part of the <a href="https://marvl.stanford.edu/">Medical AI and ComputeR Vision Lab (MARVL)</a>
-        and advised by <a href="https://ai.stanford.edu/~syyeung/">Prof. Serena Yeung</a>. </p>
+        <p>I am a fifth year Ph.D student in Computational and Mathematical Engineering (<a href="https://icme.stanford.edu/">ICME</a>) at Stanford University where I am advised by <a href="https://ai.stanford.edu/~syyeung/">Prof. Serena Yeung</a>. </p>
 
-        <p>I am broadly interested in 3D computer vision. Specifically, I work on deep learning based algorithms to recognize and interpret human pose and behavior in the 3D world, for applications including AI-assisted hospitals and study of early childhood development. </p>
+        <p>I am broadly interested in 3D computer vision and machine learning. Specifically, my current research efforts are focused on developing cutting-edge deep learning algorithms for perceiving and modeling human pose and behavior in the 3D world. I am alo interested in applying my work towards developing AI-assisted healthcare solutions.</p>
 
-        <p>I received B.S. in Computer Science and B.S. in Mathematics from <a href="https://www.cmu.edu/">Carnegie Mellon University</a> in 2016.</p>
+        <p>Before my Ph.D, I received B.S. in Computer Science and B.S. in Mathematics from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>. I also previously worked for a fund manager on the East Coast, where I was involved in the development of proprietary research systems, particularly optimization services.</p>
         
         <p align=center>
           <a href="mailto:zzweng@stanford.edu">Email</a> &nbsp/&nbsp
@@ -187,8 +192,33 @@ background-color: #ffffd0;
             <tr>
               <td width="35%">
                 <div class="one">
+                  <div class="two" id='dapa_image'><img src='imgs/diffusion_hpc.png' class="img"></div>
+                  <!-- <img src='imgs/diffusion_hpc.png' width="160"> -->
+                </div>
+              </td>
+              <td valign="top" width="75%">
+                <a href="">
+                  <papertitle>Diffusion HPC: Generate Synthetic Images with Realistic Humans </papertitle>
+                </a>
+                <br>
+                <strong>Zhenzhen Weng</strong>, Laura Bravo, Serena Yeung
+                <br>
+                <b><a href="">Preprint</a> | 
+                  <a href="projects/diffusion_hpc.html">Website</a> | 
+                  <a href="https://github.com/ZZWENG/Diffusion_HPC">Code</a> </b>
+                <br>
+                <!-- <a href="https://arxiv.org/pdf/2212.13660.pdf">Paper</a> -->
+                <p></p>
+                <p>Recent text-to-image generative models such as Stable Diffusion often struggle to preserve plausible human structure in the generations. We propose Diffusion model with Human Pose Correction (Diffusion-HPC),
+                a method that generates photo-realistic images with plausible posed humans by injecting prior knowledge about human body structure. The generated image-mesh pairs are well-suited for downstream human mesh recovery task.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="35%">
+                <div class="one">
                   <div class="two" id='dapa_image'><img src='imgs/uhkp.png' width="200"></div>
-                  <img src='imgs/uhkp.png' width="160">
+                  <!-- <img src='imgs/uhkp.png' width="120"> -->
                 </div>
               </td>
               <td valign="top" width="75%">
@@ -209,8 +239,8 @@ background-color: #ffffd0;
             <tr>
             <td width="35%">
               <div class="one">
-                <div class="two" id='dapa_image'><img src='imgs/nemo.png' width="200"></div>
-                <img src='imgs/nemo.png' width="160">
+                <div class="two" id='dapa_image'><img src='imgs/nemo.png' class="img" ></div>
+                <!-- <img src='imgs/nemo.png' width="160"> -->
               </div>
             </td>
             <td valign="top" width="75%">
@@ -231,8 +261,8 @@ background-color: #ffffd0;
             <tr>
             <td width="25%">
               <div class="one">
-                <div class="two" id='dapa_image'><img src='imgs/dapa.png' width="160"></div>
-                <img src='imgs/dapa.png' width="160">
+                <div class="two" id='dapa_image'><img src='imgs/dapa.png' class="img" ></div>
+                <!-- <img src='imgs/dapa.png' width="160"> -->
               </div>
             </td>
             <td valign="top" width="75%">
@@ -257,19 +287,9 @@ background-color: #ffffd0;
           <tr>
             <td width="25%">
               <div class="one">
-                <div class="two" id='holistic_image'><img src='imgs/holistic.png' width="160"></div>
-                <img src='imgs/holistic.png' width="160">
+                <div class="two" id='holistic_image'><img src='imgs/holistic.png' class="img" ></div>
+                <!-- <img src='imgs/holistic.png' width="160"> -->
               </div>
-              <!-- <script type="text/javascript">
-                function lfd_start() {
-                  document.getElementById('lfd_image').style.opacity = "1";
-                }
-
-                function lfd_stop() {
-                  document.getElementById('lfd_image').style.opacity = "0";
-                }
-                lfd_stop()
-              </script> -->
             </td>
             <td valign="top" width="75%">
               <a href="https://arxiv.org/pdf/2012.01591.pdf">
@@ -293,8 +313,8 @@ background-color: #ffffd0;
           <tr>
             <td width="25%">
               <div class="one">
-                <div class="two" id='longtail_image'><img src='imgs/longtail.png' width="160"></div>
-                <img src='imgs/longtail.png' width="160">
+                <div class="two" id='longtail_image'><img src='imgs/longtail.png' class="img" ></div>
+                <!-- <img src='imgs/longtail.png' width="160"> -->
               </div>
               <!-- <script type="text/javascript">
                 function lfd_start() {
@@ -328,8 +348,8 @@ background-color: #ffffd0;
           <tr onmouseout="dd_stop()" onmouseover="dd_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='slice_image'><img src='imgs/slice_based_learning.png' width="160"></div>
-                <img src='imgs/slice_based_learning.png' width="160">
+                <div class="two" id='slice_image'><img src='imgs/slice_based_learning.png' class="img"></div>
+                <!-- <img src='imgs/slice_based_learning.png' width="160"> -->
               </div>
              
             </td>
@@ -356,8 +376,8 @@ background-color: #ffffd0;
           <tr onmouseout="seg_stop()" onmouseover="seg_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='cyclist_image'><img src='imgs/cyclist.png' width="160"></div>
-                <img src='imgs/cyclist.png' width="160">
+                <div class="two" id='cyclist_image'><img src='imgs/cyclist.png' width="200"></div>
+                <!-- <img src='imgs/cyclist.png' width="160"> -->
               </div>
             </td>
             
@@ -372,7 +392,7 @@ background-color: #ffffd0;
               <a href="https://www.linkedin.com/in/jeffota/">Jeffrey Ota</a>,
               <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a>
               <br>
-              <em>IEEE Intelligent Vehicles Symposium<a href="https://iv2019.org/">(IEEE IV)</a></em>, 2019
+              <em>IEEE Intelligent Vehicles Symposium<a href="https://iv2019.org/"> (IEEE IV)</a></em>, 2019
               <br>
               <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8814147&tag=1">Paper</a>
               <p></p>
